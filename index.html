@@ -67,15 +67,15 @@
       <!--Hero Section-->
       <section id="hero">
         <!--Glowing effect for decoration-->
-        <div class="glow hidden"></div>
-        <div class="hero">
-          <div class="status hidden" style="color: white;">
+        <div class="status hidden"style="color: white; margin-bottom: 10px;">
             <span class="statusColor">●</span>Available For Work
           </div>
-          <div class="container hidden">
+          <!-- Flex container to align text and image -->
+          <div class="hero-container">
+     <!-- Left Text Content -->
+     <div class="hero-content">
             <div class="texts">
-              <span class="name">JAGRUTHI PULLAIAHGARI</span>
-              <div class="container hidden">
+              <span class="name"style="font-size: 32px; font-weight: bold;">JAGRUTHI PULLAIAHGARI</span>
                 <h1>
                   <span class="keyword">System</span>
                   <span class="dot">.</span>
@@ -84,10 +84,10 @@
                   <span class="function">println</span>(
                   <span class="dynamic-text">"Web Developer"</span>);
                 </h1>
-              </div>
+             
               
               <span class="intro">
-                Application and Web Developer specializing in creating scalable, user-friendly, and innovative digital solutions.
+                Developer specializing in creating scalable, user-friendly,and innovative <br>digital solutions.I also Transform Data into Strategic Decisions 
               </span>
             </div>
             <script src="script.js"></script>
@@ -99,6 +99,9 @@
                 ><i class="bx bxs-user-detail"></i>Contact Me</a
               >
             </div>
+          </div>
+          <div class="hero-image">
+            <img src="Images/Profile/higirlimage.png" alt="New Character">
           </div>
         </div>
         <!--Scroll Sign helping them know there is more below-->
@@ -181,8 +184,8 @@
                     >CSS</span
                   >
                 </div>
-                <div class="percent"><div class="fill hidden"></div></div>
-                <span class="percentage">96%</span>
+                
+          
               </div>
               <div class="tech js hidden">
                 <div class="techImages">
@@ -191,8 +194,7 @@
                     alt="javaScript"
                   /><span class="techName">JavaScript</span>
                 </div>
-                <div class="percent"><div class="fill hidden"></div></div>
-                <span class="percentage">77%</span>
+                
               </div>
               <div class="tech git hidden">
                 <div class="techImages">
@@ -201,8 +203,7 @@
                     >Android Studio</span
                     >
                 </div>
-                <div class="percent"><div class="fill hidden"></div></div>
-                <span class="percentage">90%</span>
+                
               </div>
               <div class="tech cPlusPlus hidden">
                 <div class="techImages">
@@ -211,8 +212,7 @@
                     >Python</span
                   >
                 </div>
-                <div class="percent"><div class="fill hidden"></div></div>
-                <span class="percentage">87%</span>
+                
               </div>
               <div class="tech html hidden">
                 <div class="techImages">
@@ -221,18 +221,16 @@
                     >HTML</span
                   >
                 </div>
-                <div class="percent"><div class="fill hidden"></div></div>
-                <span class="percentage">98%</span>
+                
               </div>
               <div class="tech git hidden">
                 <div class="techImages">
-                  <img src="Images/Icons/git.svg" alt="git" /><span
+                  <img src="Images/Icons/gitt.svg" alt="git" /><span
                     class="techName"
                     >Git</span
                   >
                 </div>
-                <div class="percent"><div class="fill hidden"></div></div>
-                <span class="percentage">76%</span>
+               
               </div>
               <div class="tech git hidden">
                 <div class="techImages">
@@ -241,8 +239,7 @@
                     >Java</span
                     >
                 </div>
-                <div class="percent"><div class="fill hidden"></div></div>
-                <span class="percentage">70%</span>
+                
               </div>
               
             </div>
@@ -276,14 +273,15 @@
               </div>
               <div class="projectButtons">
                 <a
-                  href="https://github.com/Mohammed-Abdi/Mohammed-Portfolio"
+                  href="https://github.com/jagruthijags24/My-portfolio"
                   class="whiteButton"
                   target="_blank"
                   ><i class="fa-brands fa-github"></i
                   ><span>Source Code</span></a
                 >
                 <a
-                  href="https://mohammed-abdi.github.io/Mohammed-Portfolio/"
+                
+                  href="https://github.com/jagruthijags24/My-portfolio"   
                   class="blackButton"
                   target="_blank"
                   ><i class="bx bx-globe"></i><span>Live Demo</span></a
@@ -293,32 +291,39 @@
           </div>
           <!--Project-->
           <div class="project recipe hidden">
-            <img src="Images/Projects/recipe-mockup.webp" alt="Recipe" />
+            <img src="Images/Projects/bitcoin.webp" alt="Recipe" />
             <div class="detailsContainer">
               <div class="projectDetails">
-                <span class="projectTitle">m-Recipe</span>
+                <span class="projectTitle">Bitcoin Price Movement Based on News </span>
                 <p>
-                  A comprehensive platform for discovering, exploring, and
-                  learning how to prepare authentic traditional recipes from
-                  various cultures.
+                  This proejct is about predicting future Bitcoin prices based 
+                  on the sentiment of news articles related to Bitcoin. The 
+                  sentiment analysis will be performed using Natural Language 
+                  Processing (NLP) techniques.
                 </p>
               </div>
               <div class="technologiesUsed">
                 <p class="projectsTechTitle">Technologies Used:</p>
                 <div class="technologies">
-                  <span>CSS</span><span>JavaScript</span><span>HTML</span>
+                  <span>python</span>
+                </div>
+                <div class="technologiesUsed">
+                  <p class="projectsTechTitle">Libraries Used:</p>
+                  <div class="technologies">
+                    <span>textblob</span><span>seaborn</span><span>scikit-learn </span><span>matplotlib</span>
+                  </div>
                 </div>
               </div>
               <div class="projectButtons">
                 <a
-                  href="https://github.com/Mohammed-Abdi/M-Recipe"
+                  href=""
                   class="whiteButton"
                   target="_blank"
                   ><i class="fa-brands fa-github"></i
                   ><span>Source Code</span></a
                 >
                 <a
-                  href="https://mohammed-abdi.github.io/M-Recipe/"
+                  href=""
                   class="blackButton"
                   target="_blank"
                   ><i class="bx bx-globe"></i><span>Live Demo</span></a
