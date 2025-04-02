@@ -1,7 +1,7 @@
 Welcome to my personal portfolio! 🎨💻 This website showcases my skills, projects, and experience as a **Software Engineer**.
 
 ## 🌐 Live Demo
-[🔗 View Portfolio](https://mohammed-abdi.github.io/Mohammed-Portfolio/)
+[🔗 View Portfolio](https://jagruthijags24.github.io/)
 
 
 ## ✨ Features
