@@ -141,7 +141,14 @@ a {
   font-weight: 500;
   gap: 1.25rem;
   width: 100%; /* Ensures full width */
+  max-width: 350px; /* Restricts box width */
+  padding: 20px;
+  border: 2px solid #ccc; /* Light gray border */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: white; /* White background */
 }
+
 
 .about .profilePicture {
   display: flex;
