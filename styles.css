@@ -169,7 +169,7 @@ a {
   border-radius: 50%;
   background: var(--instagramGradient);
   margin: 0 auto;
-  border: 3px solid rgba(255, 255, 255, 0.3); /* Slight transparent border */
+  
 }
 
 .about .profilePicture img {
