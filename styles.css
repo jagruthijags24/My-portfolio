@@ -152,9 +152,9 @@ a {
   justify-content: center;
   text-align: center;
   width: 80%; /* Adjust width */
-  max-width: 500px; /* Limit max size */
+  max-width: 1000px; /* Limit max size */
   padding: 20px;
-  border: 2px solid rgba(255, 255, 255, 0.5); /* Only border, fully transparent */
+ 
   border-radius: 15px; /* Rounded edges */
   background: transparent; /* No background */
 }
