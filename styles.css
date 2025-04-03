@@ -132,7 +132,8 @@ a {
   transform: scale(1.02);
 }
 
-.container .about {
+
+ .container .about {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,27 +141,46 @@ a {
   text-align: center;
   font-weight: 500;
   gap: 1.25rem;
-  width: 100%; /* Ensures full width */
+  width: 100%;
 }
 
+/* Fully Transparent Box */
+.aboutAndContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%; /* Adjust width */
+  max-width: 500px; /* Limit max size */
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Only border, fully transparent */
+  border-radius: 15px; /* Rounded edges */
+  background: transparent; /* No background */
+}
+
+/* Profile Picture Styling */
 .about .profilePicture {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 12rem; /* Adjust size if needed */
+  width: 12rem;
   height: 12rem;
   border-radius: 50%;
   background: var(--instagramGradient);
-  margin: 0 auto; /* Centers the element */
+  margin: 0 auto;
+  border: 3px solid rgba(255, 255, 255, 0.3); /* Slight transparent border */
 }
 
 .about .profilePicture img {
   width: 10rem;
   height: auto;
   border-radius: 50%;
-  border: 0.3125rem solid var(--primary);
+  border: 3px solid var(--primary);
   display: block;
 }
+
+/* Container Alignment */
 .container {
   display: flex;
   flex-direction: column;
