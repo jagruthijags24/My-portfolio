@@ -23,7 +23,7 @@ main.addEventListener("click", () => {
   nav.classList.remove("active");
   hc.classList.remove("active");
 });
-const greetings = ["Web Developer", "App Developer", "Coder"];
+const greetings = ["Web Developer", "App Developer", "Coder","Data Analyst"];
 let index = 0;
 
 function updateText() {
