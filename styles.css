@@ -242,6 +242,13 @@ buttons {
   text-align: center;
   transition: transform 0.3s ease-in-out;
 }
+.experience:hover {
+  background-color: rgba(237, 225, 225, 0.5); /* Soft light reddish-black with more transparency */
+  color: #222222; /* Darker text for contrast */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 2px 4px 8px rgba(120, 30, 30, 0.2); /* Gentle reddish shadow */
+  border-color: rgba(214, 184, 184, 0.7); /* Slightly darker border */
+}
 .education {
   width: 100%;
   max-width: 40rem;
